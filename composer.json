@@ -20,8 +20,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Mrwangwj\\LaravelAliyunSms\\Demo": "demo/",
-            "Mrwangwj\\LaravelAliyunSms\\ApiSdk": "api-sdk/"
+            "Mrwangwj\\LaravelAliyunSms\\Demo\\": "demo/",
+            "Mrwangwj\\LaravelAliyunSms\\ApiSdk\\": "api-sdk/"
         }
     }
 }
