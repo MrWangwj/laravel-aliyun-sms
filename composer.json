@@ -1,0 +1,27 @@
+{
+    "name": "mrwangwj/laravel-aliyun-sms",
+    "description": "Aliyun SMS SDK For Laravel",
+    "keywords": [ "aliyun", "SMS", "sdk", "laravel" ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://wangweijin",
+    "authors": [
+        {
+            "name": "wangweijin",
+            "homepage": "http://wangweijin.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Mrwangwj\\LaravelAliyunSms\\Demo": "demo/",
+            "Mrwangwj\\LaravelAliyunSms\\ApiSdk": "api-sdk/"
+        }
+    }
+}
